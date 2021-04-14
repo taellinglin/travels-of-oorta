@@ -1,0 +1,31 @@
+
+//{{BLOCK(blocks)
+
+//======================================================================
+//
+//	blocks, 16x8@4, 
+//	+ palette 16 entries, not compressed
+//	+ 2 tiles not compressed
+//	Total size: 32 + 64 = 96
+//
+//	Time-stamp: 2021-02-22, 12:27:38
+//	Exported by Cearn's GBA Image Transmogrifier, v0.8.3
+//	( http://www.coranac.com/projects/#grit )
+//
+//======================================================================
+
+const unsigned short blocksTiles[32] __attribute__((aligned(4)))=
+{
+	0x6262,0x6262,0x7376,0x2373,0x3732,0x6737,0x7376,0x2373,
+	0x3732,0x6737,0x7376,0x2373,0x3732,0x6737,0x2626,0x2626,
+	0x0000,0x0000,0x5550,0x0555,0x5550,0x0555,0x8880,0x0888,
+	0x5550,0x0555,0x4440,0x0444,0x1110,0x0111,0x0000,0x0000,
+};
+
+const unsigned short blocksPal[16] __attribute__((aligned(4)))=
+{
+	0x00CC,0x1999,0x7132,0x7259,0x26BF,0x333F,0x5933,0x7A9B,
+	0x1B3F,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+};
+
+//}}BLOCK(blocks)

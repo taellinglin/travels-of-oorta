@@ -1,0 +1,4 @@
+#define MOD_FORTRESS	0
+#define MSL_NSONGS	1
+#define MSL_NSAMPS	26
+#define MSL_BANKSIZE	27
