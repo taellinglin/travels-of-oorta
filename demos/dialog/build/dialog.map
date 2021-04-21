@@ -409,13 +409,13 @@ Linker script and memory map
 
 .rodata         0x0000000008003254    0x4168c
  *(.rodata)
- .rodata        0x0000000008003254     0x2080 portrait_bg_test.o
-                0x0000000008003254                portrait_bg_testPal
-                0x0000000008003454                portrait_bg_testMap
-                0x0000000008003c54                portrait_bg_testTiles
- .rodata        0x00000000080052d4      0x2b4 Text_demo.o
-                0x00000000080052d4                letters_string
-                0x0000000008005318                Dialogs
+ .rodata        0x0000000008003254      0x2b4 Text_demo.o
+                0x0000000008003254                letters_string
+                0x0000000008003298                Dialogs
+ .rodata        0x0000000008003508     0x2080 portrait_bg_test.o
+                0x0000000008003508                portrait_bg_testPal
+                0x0000000008003708                portrait_bg_testMap
+                0x0000000008003f08                portrait_bg_testTiles
  .rodata        0x0000000008005588     0x1260 textBox.o
                 0x0000000008005588                textBoxPal
                 0x00000000080055a8                textBoxMap
@@ -748,8 +748,8 @@ Linker script and memory map
  *(.comment)
  .comment       0x0000000000000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/crtbegin.o
                                          0x24 (size before relaxing)
- .comment       0x0000000000000023       0x24 portrait_bg_test.o
  .comment       0x0000000000000023       0x24 Text_demo.o
+ .comment       0x0000000000000023       0x24 portrait_bg_test.o
  .comment       0x0000000000000023       0x24 textBox.o
  .comment       0x0000000000000023       0x22 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
                                          0x23 (size before relaxing)
@@ -785,9 +785,9 @@ Linker script and memory map
 .debug_aranges  0x0000000000000000       0x98
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0x18 portrait_bg_test.o
+                0x0000000000000000       0x28 Text_demo.o
  .debug_aranges
-                0x0000000000000018       0x28 Text_demo.o
+                0x0000000000000028       0x18 portrait_bg_test.o
  .debug_aranges
                 0x0000000000000040       0x18 textBox.o
  .debug_aranges
@@ -800,24 +800,24 @@ Linker script and memory map
 
 .debug_info     0x0000000000000000      0xe9b
  *(.debug_info)
- .debug_info    0x0000000000000000       0xad portrait_bg_test.o
- .debug_info    0x00000000000000ad      0x901 Text_demo.o
+ .debug_info    0x0000000000000000      0x901 Text_demo.o
+ .debug_info    0x0000000000000901       0xad portrait_bg_test.o
  .debug_info    0x00000000000009ae       0xac textBox.o
  .debug_info    0x0000000000000a5a      0x41b C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
  .debug_info    0x0000000000000e75       0x26 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_abbrev   0x0000000000000000      0x585
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000       0x69 portrait_bg_test.o
- .debug_abbrev  0x0000000000000069      0x2b1 Text_demo.o
+ .debug_abbrev  0x0000000000000000      0x2b1 Text_demo.o
+ .debug_abbrev  0x00000000000002b1       0x69 portrait_bg_test.o
  .debug_abbrev  0x000000000000031a       0x69 textBox.o
  .debug_abbrev  0x0000000000000383      0x1ee C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
  .debug_abbrev  0x0000000000000571       0x14 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_line     0x0000000000000000      0xe6c
  *(.debug_line)
- .debug_line    0x0000000000000000       0x72 portrait_bg_test.o
- .debug_line    0x0000000000000072      0x731 Text_demo.o
+ .debug_line    0x0000000000000000      0x731 Text_demo.o
+ .debug_line    0x0000000000000731       0x72 portrait_bg_test.o
  .debug_line    0x00000000000007a3       0x69 textBox.o
  .debug_line    0x000000000000080c      0x5ae C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
  .debug_line    0x0000000000000dba       0xb2 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
@@ -829,10 +829,10 @@ Linker script and memory map
 
 .debug_str      0x0000000000000000      0x71d
  *(.debug_str)
- .debug_str     0x0000000000000000      0x13e portrait_bg_test.o
-                                        0x14b (size before relaxing)
- .debug_str     0x000000000000013e      0x2da Text_demo.o
+ .debug_str     0x0000000000000000      0x3c6 Text_demo.o
                                         0x416 (size before relaxing)
+ .debug_str     0x00000000000003c6       0x52 portrait_bg_test.o
+                                        0x14b (size before relaxing)
  .debug_str     0x0000000000000418       0x49 textBox.o
                                         0x127 (size before relaxing)
  .debug_str     0x0000000000000461      0x25c C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
@@ -879,9 +879,9 @@ Linker script and memory map
  .ARM.attributes
                 0x0000000000000066       0x14 soundbank.bin.o
  .ARM.attributes
-                0x000000000000007a       0x30 portrait_bg_test.o
+                0x000000000000007a       0x2a Text_demo.o
  .ARM.attributes
-                0x00000000000000aa       0x2a Text_demo.o
+                0x00000000000000a4       0x30 portrait_bg_test.o
  .ARM.attributes
                 0x00000000000000d4       0x30 textBox.o
  .ARM.attributes
@@ -947,8 +947,8 @@ LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/crti.o
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/crtbegin.o
 LOAD soundbank.bin.o
-LOAD portrait_bg_test.o
 LOAD Text_demo.o
+LOAD portrait_bg_test.o
 LOAD textBox.o
 LOAD C:\devkitpro/libgba/lib\libmm.a
 LOAD C:\devkitpro/libgba/lib\libgba.a

@@ -1,27 +1,27 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:/devkitPro/libgba/lib\libmm.a(mm_mas.o)
+C:\devkitpro/libgba/lib\libmm.a(mm_mas.o)
                               portrait.o (mmStart)
-C:/devkitPro/libgba/lib\libmm.a(mm_main.o)
-                              C:/devkitPro/libgba/lib\libmm.a(mm_mas.o) (mmCallback)
-C:/devkitPro/libgba/lib\libmm.a(mm_effect.o)
-                              C:/devkitPro/libgba/lib\libmm.a(mm_main.o) (mmResetEffects)
-C:/devkitPro/libgba/lib\libmm.a(mm_mas_arm.o)
-                              C:/devkitPro/libgba/lib\libmm.a(mm_mas.o) (mmAllocChannel)
-C:/devkitPro/libgba/lib\libmm.a(mm_mixer_gba.o)
+C:\devkitpro/libgba/lib\libmm.a(mm_main.o)
+                              C:\devkitpro/libgba/lib\libmm.a(mm_mas.o) (mmCallback)
+C:\devkitpro/libgba/lib\libmm.a(mm_effect.o)
+                              C:\devkitpro/libgba/lib\libmm.a(mm_main.o) (mmResetEffects)
+C:\devkitpro/libgba/lib\libmm.a(mm_mas_arm.o)
+                              C:\devkitpro/libgba/lib\libmm.a(mm_mas.o) (mmAllocChannel)
+C:\devkitpro/libgba/lib\libmm.a(mm_mixer_gba.o)
                               portrait.o (mmVBlank)
-C:/devkitPro/libgba/lib\libmm.a(mm_init_default.o)
+C:\devkitpro/libgba/lib\libmm.a(mm_init_default.o)
                               portrait.o (mmInitDefault)
-C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
                               portrait.o (irqInit)
-C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
-                              C:/devkitPro/libgba/lib\libgba.a(interrupt.o) (IntrMain)
+C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
+                              C:\devkitpro/libgba/lib\libgba.a(interrupt.o) (IntrMain)
 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb\libgcc.a(_call_via_rX.o)
-                              C:/devkitPro/libgba/lib\libmm.a(mm_main.o) (_call_via_r1)
+                              C:\devkitpro/libgba/lib\libmm.a(mm_main.o) (_call_via_r1)
 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
                               c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/gba_crt0.o (__libc_init_array)
 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
-                              C:/devkitPro/libgba/lib\libmm.a(mm_init_default.o) (malloc)
+                              C:\devkitpro/libgba/lib\libmm.a(mm_init_default.o) (malloc)
 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
                               c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o) (_malloc_r)
 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy-stub.o)
@@ -44,7 +44,7 @@ c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-
 Allocating common symbols
 Common symbol       size              file
 
-IntrTable           0x78              C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+IntrTable           0x78              C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
 
 Discarded input sections
 
@@ -72,24 +72,24 @@ Discarded input sections
  .data          0x0000000000000000        0x0 level1.o
  .bss           0x0000000000000000        0x0 level1.o
  .debug_line    0x0000000000000000        0x0 level1.o
- .debug_str     0x0000000000000000       0xd1 level1.o
+ .debug_str     0x0000000000000000       0xed level1.o
  .comment       0x0000000000000000       0x24 level1.o
  .rodata        0x0000000000000000        0x4 portrait.o
  .text          0x0000000000000000        0x0 toolbox.o
  .data          0x0000000000000000        0x0 toolbox.o
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_mas.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_main.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_effect.o)
- .text          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_mas_arm.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_mas_arm.o)
- .bss           0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_mas_arm.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_mixer_gba.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libmm.a(mm_init_default.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .bss           0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .text          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
- .data          0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
- .bss           0x0000000000000000        0x0 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_mas.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_main.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_effect.o)
+ .text          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_mas_arm.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_mas_arm.o)
+ .bss           0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_mas_arm.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_mixer_gba.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libmm.a(mm_init_default.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
+ .bss           0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
+ .text          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .data          0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .bss           0x0000000000000000        0x0 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
  .data          0x0000000000000000        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb\libgcc.a(_call_via_rX.o)
  .bss           0x0000000000000000        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb\libgcc.a(_call_via_rX.o)
  .text          0x0000000000000000        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
@@ -200,7 +200,7 @@ Linker script and memory map
                 0x00000000080002e4                background
  .text.startup  0x0000000008000318       0xd4 portrait.o
                 0x0000000008000318                main
- .text          0x00000000080003ec     0x1564 C:/devkitPro/libgba/lib\libmm.a(mm_mas.o)
+ .text          0x00000000080003ec     0x1564 C:\devkitpro/libgba/lib\libmm.a(mm_mas.o)
                 0x0000000008000460                mmStart
                 0x0000000008000480                mmJingle
                 0x0000000008000486                mmPlayModule
@@ -220,7 +220,7 @@ Linker script and memory map
                 0x0000000008000ac2                mpp_Process_Effect
                 0x0000000008001210                ST3_FREQTABLE
                 0x0000000008001630                IT_PitchTable
- .text          0x0000000008001950      0x140 C:/devkitPro/libgba/lib\libmm.a(mm_main.o)
+ .text          0x0000000008001950      0x140 C:\devkitpro/libgba/lib\libmm.a(mm_main.o)
                 0x0000000008001950                mpp_call_r7
                 0x0000000008001952                mpp_call_r1
                 0x0000000008001954                mpp_call_r2
@@ -229,7 +229,7 @@ Linker script and memory map
                 0x0000000008001960                mmInit
                 0x00000000080019b4                mmSetVBlankHandler
                 0x00000000080019ba                mmFrame
- .text          0x0000000008001a90      0x314 C:/devkitPro/libgba/lib\libmm.a(mm_effect.o)
+ .text          0x0000000008001a90      0x314 C:\devkitpro/libgba/lib\libmm.a(mm_effect.o)
                 0x0000000008001a90                mmResetEffects
                 0x0000000008001abc                mmEffect
                 0x0000000008001ad2                mmEffectEx
@@ -243,7 +243,7 @@ Linker script and memory map
                 0x0000000008001cbe                mmSetEffectsVolume
                 0x0000000008001ccc                mmEffectCancelAll
                 0x0000000008001d0c                mmUpdateEffects
- .text          0x0000000008001da4      0x1e0 C:/devkitPro/libgba/lib\libmm.a(mm_mixer_gba.o)
+ .text          0x0000000008001da4      0x1e0 C:\devkitpro/libgba/lib\libmm.a(mm_mixer_gba.o)
                 0x0000000008001da4                mmMixerSetSource
                 0x0000000008001db8                mmMixerSetRead
                 0x0000000008001dc6                mmMixerSetFreq
@@ -253,9 +253,9 @@ Linker script and memory map
                 0x0000000008001e0e                mmMixerSetVolume
                 0x0000000008001e1c                mmMixerSetPan
                 0x0000000008001e2a                mmMixerInit
- .text          0x0000000008001f84       0x44 C:/devkitPro/libgba/lib\libmm.a(mm_init_default.o)
+ .text          0x0000000008001f84       0x44 C:\devkitpro/libgba/lib\libmm.a(mm_init_default.o)
                 0x0000000008001f84                mmInitDefault
- .text          0x0000000008001fc8      0x3b8 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .text          0x0000000008001fc8      0x3b8 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
                 0x0000000008001fc8                dummy
                 0x0000000008001fcc                InitInterrupt
                 0x0000000008002028                irqInit
@@ -393,15 +393,15 @@ Linker script and memory map
 .iwram          0x0000000003000000     0x1494 load address 0x000000000802e130
                 0x0000000003000000                __iwram_start__ = ABSOLUTE (.)
  *(.iwram .iwram*)
- .iwram         0x0000000003000000      0x554 C:/devkitPro/libgba/lib\libmm.a(mm_mas.o)
+ .iwram         0x0000000003000000      0x554 C:\devkitpro/libgba/lib\libmm.a(mm_mas.o)
                 0x0000000003000000                mppProcessTick
                 0x00000000030000e4                mpp_Channel_NewNote
                 0x00000000030001c4                mpp_Update_ACHN_notest
- .iwram         0x0000000003000554        0x8 C:/devkitPro/libgba/lib\libmm.a(mm_main.o)
+ .iwram         0x0000000003000554        0x8 C:\devkitpro/libgba/lib\libmm.a(mm_main.o)
                 0x0000000003000554                mpp_call_r7i
                 0x0000000003000556                mpp_call_r2i
                 0x0000000003000558                mpp_call_r1i
- .iwram         0x000000000300055c      0x648 C:/devkitPro/libgba/lib\libmm.a(mm_mas_arm.o)
+ .iwram         0x000000000300055c      0x648 C:\devkitpro/libgba/lib\libmm.a(mm_mas_arm.o)
                 0x000000000300055c                mmAllocChannel
                 0x00000000030005d0                mmReadPattern
                 0x00000000030006bc                mmUpdateChannel_T0
@@ -409,10 +409,10 @@ Linker script and memory map
                 0x0000000003000a9c                mmGetPeriod
                 0x0000000003000ae0                note_table_oct
                 0x0000000003000afe                note_table_mod
- .iwram         0x0000000003000ba4      0x838 C:/devkitPro/libgba/lib\libmm.a(mm_mixer_gba.o)
+ .iwram         0x0000000003000ba4      0x838 C:\devkitpro/libgba/lib\libmm.a(mm_mixer_gba.o)
                 0x0000000003000ba8                mmVBlank
                 0x0000000003000c2c                mmMixerMix
- .iwram         0x00000000030013dc       0xb8 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .iwram         0x00000000030013dc       0xb8 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
                 0x00000000030013dc                IntrMain
  *iwram.*(.text* .data*)
                 0x0000000003001494                . = ALIGN (0x4)
@@ -440,7 +440,7 @@ Linker script and memory map
  .bss           0x00000000030014c0        0x4 toolbox.o
                 0x00000000030014c0                __key_prev
                 0x00000000030014c2                __key_curr
- .bss           0x00000000030014c4      0x148 C:/devkitPro/libgba/lib\libmm.a(mm_mas.o)
+ .bss           0x00000000030014c4      0x148 C:\devkitpro/libgba/lib\libmm.a(mm_mas.o)
                 0x00000000030014c4                mmLayerMain
                 0x00000000030014fc                mmLayerSub
                 0x0000000003001534                mpp_vars
@@ -453,7 +453,7 @@ Linker script and memory map
                 0x0000000003001564                mm_num_mch
                 0x0000000003001568                mm_num_ach
                 0x000000000300156c                mm_schannels
- .bss           0x000000000300160c       0x20 C:/devkitPro/libgba/lib\libmm.a(mm_main.o)
+ .bss           0x000000000300160c       0x20 C:\devkitpro/libgba/lib\libmm.a(mm_main.o)
                 0x000000000300160c                mmCallback
                 0x0000000003001610                mmModuleCount
                 0x0000000003001614                mmModuleBank
@@ -462,17 +462,17 @@ Linker script and memory map
                 0x0000000003001620                mm_vblank_function
                 0x0000000003001624                mmInitialized
                 0x0000000003001628                mp_solution
- .bss           0x000000000300162c       0x2d C:/devkitPro/libgba/lib\libmm.a(mm_effect.o)
+ .bss           0x000000000300162c       0x2d C:\devkitpro/libgba/lib\libmm.a(mm_effect.o)
                 0x0000000003001650                mm_sfx_bitmask
                 0x0000000003001654                mm_sfx_clearmask
  *fill*         0x0000000003001659        0x3 
- .bss           0x000000000300165c      0x1bc C:/devkitPro/libgba/lib\libmm.a(mm_mixer_gba.o)
+ .bss           0x000000000300165c      0x1bc C:\devkitpro/libgba/lib\libmm.a(mm_mixer_gba.o)
                 0x000000000300165c                mp_writepos
                 0x0000000003001664                mm_mixchannels
                 0x000000000300166c                mm_mixlen
                 0x0000000003001680                mm_bpmdv
                 0x0000000003001684                mp_mix_seg
- .bss           0x0000000003001818      0x420 C:/devkitPro/libgba/lib\libmm.a(mm_init_default.o)
+ .bss           0x0000000003001818      0x420 C:\devkitpro/libgba/lib\libmm.a(mm_init_default.o)
  .bss.__malloc_current_mallinfo
                 0x0000000003001c38       0x28 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
                 0x0000000003001c38                __malloc_current_mallinfo
@@ -497,7 +497,7 @@ Linker script and memory map
                 0x0000000003001c78       0x48 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
                 0x0000000003001c78                __syscalls
  *(COMMON)
- COMMON         0x0000000003001cc0       0x78 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ COMMON         0x0000000003001cc0       0x78 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
                 0x0000000003001cc0                IntrTable
                 0x0000000003001d38                . = ALIGN (0x4)
                 0x0000000003001d38                __bss_end__ = ABSOLUTE (.)
@@ -669,7 +669,7 @@ Linker script and memory map
  .comment       0x0000000000000023       0x24 level_map.o
  .comment       0x0000000000000023       0x24 portrait.o
  .comment       0x0000000000000023       0x24 toolbox.o
- .comment       0x0000000000000023       0x22 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .comment       0x0000000000000023       0x22 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
                                          0x23 (size before relaxing)
  .comment       0x0000000000000045       0x24 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
  .comment       0x0000000000000045       0x24 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
@@ -707,9 +707,9 @@ Linker script and memory map
  .debug_aranges
                 0x0000000000000058       0x18 toolbox.o
  .debug_aranges
-                0x0000000000000070       0x20 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+                0x0000000000000070       0x20 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
  .debug_aranges
-                0x0000000000000090       0x20 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+                0x0000000000000090       0x20 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_pubnames
  *(.debug_pubnames)
@@ -720,8 +720,8 @@ Linker script and memory map
  .debug_info    0x0000000000000081       0x77 level_map.o
  .debug_info    0x00000000000000f8      0x624 portrait.o
  .debug_info    0x000000000000071c       0x96 toolbox.o
- .debug_info    0x00000000000007b2      0x41b C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .debug_info    0x0000000000000bcd       0x26 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_info    0x00000000000007b2      0x41b C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
+ .debug_info    0x0000000000000bcd       0x26 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_abbrev   0x0000000000000000      0x5a3
  *(.debug_abbrev)
@@ -729,42 +729,42 @@ Linker script and memory map
  .debug_abbrev  0x000000000000004a       0x47 level_map.o
  .debug_abbrev  0x0000000000000091      0x2b9 portrait.o
  .debug_abbrev  0x000000000000034a       0x57 toolbox.o
- .debug_abbrev  0x00000000000003a1      0x1ee C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .debug_abbrev  0x000000000000058f       0x14 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_abbrev  0x00000000000003a1      0x1ee C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
+ .debug_abbrev  0x000000000000058f       0x14 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
-.debug_line     0x0000000000000000      0xba0
+.debug_line     0x0000000000000000      0xbe6
  *(.debug_line)
- .debug_line    0x0000000000000000       0x5f blocks.o
- .debug_line    0x000000000000005f       0x62 level_map.o
- .debug_line    0x00000000000000c1      0x412 portrait.o
- .debug_line    0x00000000000004d3       0x6d toolbox.o
- .debug_line    0x0000000000000540      0x5ae C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .debug_line    0x0000000000000aee       0xb2 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_line    0x0000000000000000       0x6d blocks.o
+ .debug_line    0x000000000000006d       0x70 level_map.o
+ .debug_line    0x00000000000000dd      0x42e portrait.o
+ .debug_line    0x000000000000050b       0x7b toolbox.o
+ .debug_line    0x0000000000000586      0x5ae C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
+ .debug_line    0x0000000000000b34       0xb2 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_frame    0x0000000000000000      0x12c
  *(.debug_frame)
  .debug_frame   0x0000000000000000       0x7c portrait.o
- .debug_frame   0x000000000000007c       0xb0 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_frame   0x000000000000007c       0xb0 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
 
-.debug_str      0x0000000000000000      0x6c0
+.debug_str      0x0000000000000000      0x706
  *(.debug_str)
- .debug_str     0x0000000000000000       0xfa blocks.o
-                                        0x107 (size before relaxing)
- .debug_str     0x00000000000000fa       0x71 level_map.o
-                                        0x119 (size before relaxing)
- .debug_str     0x000000000000016b      0x259 portrait.o
-                                        0x378 (size before relaxing)
- .debug_str     0x00000000000003c4       0x40 toolbox.o
-                                        0x151 (size before relaxing)
- .debug_str     0x0000000000000404      0x25c C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_str     0x0000000000000000      0x116 blocks.o
+                                        0x123 (size before relaxing)
+ .debug_str     0x0000000000000116       0x7f level_map.o
+                                        0x135 (size before relaxing)
+ .debug_str     0x0000000000000195      0x267 portrait.o
+                                        0x394 (size before relaxing)
+ .debug_str     0x00000000000003fc       0x4e toolbox.o
+                                        0x16d (size before relaxing)
+ .debug_str     0x000000000000044a      0x25c C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
                                         0x310 (size before relaxing)
- .debug_str     0x0000000000000660       0x60 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_str     0x00000000000006a6       0x60 C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
                                          0xa0 (size before relaxing)
 
 .debug_loc      0x0000000000000000      0x566
  *(.debug_loc)
  .debug_loc     0x0000000000000000      0x120 portrait.o
- .debug_loc     0x0000000000000120      0x446 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_loc     0x0000000000000120      0x446 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -810,21 +810,21 @@ Linker script and memory map
  .ARM.attributes
                 0x0000000000000134       0x30 toolbox.o
  .ARM.attributes
-                0x0000000000000164       0x1a C:/devkitPro/libgba/lib\libmm.a(mm_mas.o)
+                0x0000000000000164       0x1a C:\devkitpro/libgba/lib\libmm.a(mm_mas.o)
  .ARM.attributes
-                0x000000000000017e       0x1a C:/devkitPro/libgba/lib\libmm.a(mm_main.o)
+                0x000000000000017e       0x1a C:\devkitpro/libgba/lib\libmm.a(mm_main.o)
  .ARM.attributes
-                0x0000000000000198       0x1a C:/devkitPro/libgba/lib\libmm.a(mm_effect.o)
+                0x0000000000000198       0x1a C:\devkitpro/libgba/lib\libmm.a(mm_effect.o)
  .ARM.attributes
-                0x00000000000001b2       0x1a C:/devkitPro/libgba/lib\libmm.a(mm_mas_arm.o)
+                0x00000000000001b2       0x1a C:\devkitpro/libgba/lib\libmm.a(mm_mas_arm.o)
  .ARM.attributes
-                0x00000000000001cc       0x1a C:/devkitPro/libgba/lib\libmm.a(mm_mixer_gba.o)
+                0x00000000000001cc       0x1a C:\devkitpro/libgba/lib\libmm.a(mm_mixer_gba.o)
  .ARM.attributes
-                0x00000000000001e6       0x1a C:/devkitPro/libgba/lib\libmm.a(mm_init_default.o)
+                0x00000000000001e6       0x1a C:\devkitpro/libgba/lib\libmm.a(mm_init_default.o)
  .ARM.attributes
-                0x0000000000000200       0x2a C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+                0x0000000000000200       0x2a C:\devkitpro/libgba/lib\libgba.a(interrupt.o)
  .ARM.attributes
-                0x000000000000022a       0x1a C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+                0x000000000000022a       0x1a C:\devkitpro/libgba/lib\libgba.a(InterruptDispatcher.o)
  .ARM.attributes
                 0x0000000000000244       0x1c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb\libgcc.a(_call_via_rX.o)
  .ARM.attributes
@@ -865,9 +865,9 @@ LOAD level_map.o
 LOAD level1.o
 LOAD portrait.o
 LOAD toolbox.o
-LOAD C:/devkitPro/libgba/lib\libmm.a
-LOAD C:/devkitPro/libgba/lib\libgba.a
-LOAD C:/devkitPro/libtonc/lib\libtonc.a
+LOAD C:\devkitpro/libgba/lib\libmm.a
+LOAD C:\devkitpro/libgba/lib\libgba.a
+LOAD C:\devkitpro/libtonc/lib\libtonc.a
 START GROUP
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb\libgcc.a
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb\libg.a
@@ -876,9 +876,9 @@ LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-
 END GROUP
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/crtend.o
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/crtn.o
-OUTPUT(C:/devkitPro/examples/gba/homebrew/Platforming/Platforming.elf elf32-littlearm)
+OUTPUT(C:/devkitPro/examples/gba/travels-of-oorta/demos/platforming/platforming.elf elf32-littlearm)
 LOAD linker stubs
 
 .debug_ranges   0x0000000000000000      0x158
  .debug_ranges  0x0000000000000000       0xe8 portrait.o
- .debug_ranges  0x00000000000000e8       0x70 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_ranges  0x00000000000000e8       0x70 C:\devkitpro/libgba/lib\libgba.a(interrupt.o)

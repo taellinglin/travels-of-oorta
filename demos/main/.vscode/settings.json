@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "winter-background.h": "c",
+        "spring-background.h": "c",
+        "seasons-tileset.h": "c",
+        "spring.h": "c",
+        "soundbank_bin.h": "c"
+    }
+}
