@@ -14,7 +14,7 @@ Placing: 5
 
 
 
-![オルタの旅](/assets/images/travelsofoortalogobig.png)
+![オルタの旅](http://mahoutsukai.art/assets/images/travelsofoortalogobig.png)
 
 
 寄稿者：
@@ -63,7 +63,7 @@ Placing: 5
 主役だけでなく、いくつかの環境芸術のために描かれたいくつかの設計の手がありました。任天堂64のZool：Mahou Tsukai Densetsu（Zool：Legendary Wizard）とNapple Tale：Asria in Daydream（Dreamcast）の明るく鮮やかな色と木/ペイントベースのデザインは、アートスタイルの主なインスピレーションですが、より多くのエイリアス/クリーンなシャドウとシェーディングを備えた鮮明なピクセルアートに適合します。 Trickerster +（等尺性 MMORPG）と洞窟物語（PC / WiiWare）も視覚的なスタイルが似ています。アニメーション、パレット、タイルセットは、ゲームボーイアドバンスの制約に技術的に適合しますが、洗練され、クリアで、活気に満ちているが、気を散らさないようにすることを目指しています。インタラクティブなアイテムを飽和させて焦点を合わせ、周囲の地形や背景とのコントラストを付けることは目には簡単ですが、特定のテーマや地域のテーマの感触（夏、春、冬、秋、夕暮れ、夜明け）にも適合します。アニメーションと動き/戦闘の仕組みには流動的なアニメーションが必要であり、GBAのハンドヘルドDパッド、ボタン、L / Rトリガーから非常にシームレスな感触を得ることができます。 
 
 
-![Zool：Mahou Tsukai Densetsu](/assets/images/zool-title.png)
+![Zool：Mahou Tsukai Densetsu](http://mahoutsukai.art/assets/images/zool-title.png)
 
 
 
@@ -72,13 +72,13 @@ Placing: 5
 Zool：Mahou Tsukai Densetsu（Zool：Legendary Sorcerer）[N64]
 
 
-![Zool：Mahou Tsukai Densetsu](/assets/images/zool-dialog.png)
+![Zool：Mahou Tsukai Densetsu](http://mahoutsukai.art/assets/images/zool-dialog.png)
 
 Dialog（日本語サポート）とキャラクターのポートレート
 
 Zool：Mahou Tsukai Densetsu（Zool：Legendary Sorcerer）[N64]
 
-![Napple Tale:Asria in Daydream](/assets/images/napple-fanart.png)
+![Napple Tale:Asria in Daydream](http://mahoutsukai.art/assets/images/napple-fanart.png)
 
 
 
@@ -87,7 +87,7 @@ Zool：Mahou Tsukai Densetsu（Zool：Legendary Sorcerer）[N64]
 ## ナップルテール：デイドリームのアスリア（ナップルテールアリシアインデイ）ドリーム[ドリームキャスト]
 
 
-![Trickster+](/assets/images/trickster.png)
+![Trickster+](http://mahoutsukai.art/assets/images/trickster.png)
 
 トリックスターと呼ばれる大量マルチプレイヤー2DRPGのかわいいキャラクター。
 
@@ -97,7 +97,7 @@ Zool：Mahou Tsukai Densetsu（Zool：Legendary Sorcerer）[N64]
 ## 洞窟物語
     
 
-![Cave Story](/assets/images/cave-story.png)
+![Cave Story](http://mahoutsukai.art/assets/images/cave-story.png)
 
 
 2Dプラットフォーマーの洞窟物語。
@@ -116,14 +116,14 @@ Zool：Mahou Tsukai Densetsu（Zool：Legendary Sorcerer）[N64]
 
 ## キャラクター
 ### オルタ
-![Oorta](/assets/images/oorta1.jpg)
+![Oorta](http://mahoutsukai.art/assets/images/oorta1.jpg)
 <br><br>
-![Oorta](/assets/images/oorta2.png)
+![Oorta](http://mahoutsukai.art/assets/images/oorta2.png)
 <br><br>
 
 
 ### リライカ
-![Lilaika](/assets/images/lilaika.png)
+![Lilaika](http://mahoutsukai.art/assets/images/lilaika.png)
 
 <br><br>
 
